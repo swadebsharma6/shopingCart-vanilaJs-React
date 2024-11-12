@@ -44,4 +44,9 @@ function Product(){
 
 
 
-ReactDOM.createRoot(document.getElementById("root")).render(<Product></Product>);
+ReactDOM.createRoot(document.getElementById("root")).render(
+      <>
+      <Product/> 
+      <Product/> 
+      </>
+);
